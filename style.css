@@ -1,0 +1,58 @@
+h1{
+
+  color: solid;
+  text-align: center;
+  padding: 100px;
+  
+  }
+  
+  header{
+  
+  background-image: url('headerbackground.jpeg');
+  
+  
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    
+  
+  }
+  
+  .otherheader{
+  
+    background-image: url('otherheaderbackground.jpg');
+  
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .item{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    position: relative;
+  }
+  
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+} 
